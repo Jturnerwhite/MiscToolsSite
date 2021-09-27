@@ -51,3 +51,12 @@ h3 {
 	border-radius: 5px;
 	box-shadow: var(--basic-box-shadow);
 }
+
+.well {
+    background: var(--backing-background);
+    color: var(--backing-color);
+
+    padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: var(--inset-box-shadow);
+}

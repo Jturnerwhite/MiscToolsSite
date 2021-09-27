@@ -54,7 +54,7 @@ export default class EventGenerator extends React.Component {
                     <h1>Event Roller</h1>
                     <p>Roll an event from an assortment of pre-written scenarios</p>
 
-                    <div className="event-display floating-card">
+                    <div className="event-display well">
                         {eventDisplay}
                     </div>
                     <div className="form">
