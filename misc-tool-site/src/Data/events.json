@@ -1,14 +1,26 @@
 [
     {
+        "Premise": "",
+        "Details": "",
+        "Theme": 0,
+        "Tags": [ 0, 1, 2, 3 ]
+    },
+    {
         "Premise": "You feel the presence of a god, or someone, watching you",
-        "Details": ""
+        "Details": "",
+        "Theme": 0,
+        "Tags": [ 0, 3 ]
     },
     {
         "Premise": "Archivist of Treacherous History",
-        "Details": "Ajani Goldmane traveling preaching the word of Heliod's Betrayal. A hulking leonin bearing markings and features somewhat uncommon to the tribes of these lands.<br/> He tells of the great smiting of Xenegos by the Godslayer Elspeth, only to be betrayed by her god Heliod - out of jealousy and fear of her power."
+        "Details": "Ajani Goldmane traveling preaching the word of Heliod's Betrayal. A hulking leonin bearing markings and features somewhat uncommon to the tribes of these lands.<br/> He tells of the great smiting of Xenegos by the Godslayer Elspeth, only to be betrayed by her god Heliod - out of jealousy and fear of her power.",
+        "Theme": 0,
+        "Tags": [ 1 ]
     },
     {
         "Premise": "Arixmethes Returns",
-        "Details": "Rename to hide from players who are familiar (?)<br/>Supposedly smote by Heliod himself for lacking to bow to his power long ago.<br/>In reality, it was built on the back of a massive kraken."
+        "Details": "Rename to hide from players who are familiar (?)<br/>Supposedly smote by Heliod himself for lacking to bow to his power long ago.<br/>In reality, it was built on the back of a massive kraken.",
+        "Theme": 0,
+        "Tags": [ 1, 3 ]
     }
 ]
