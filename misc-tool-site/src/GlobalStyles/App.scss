@@ -1,9 +1,19 @@
 @import './Variables.scss';
+@import './Buttons.scss';
 
 #root {
 	background-color: lightgray;
 	height: 100vh;
 	width: 100vw;
+}
+h1 {
+	font-size: 1.75rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
 }
 
 .site-body {
@@ -30,4 +40,29 @@
 
 .standard-content {
 	padding: 10px 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+.f-justify-center {
+	justify-content: center;
+}
+
+.f-align-center {
+	align-items: center;
+}
+
+.f-col {
+	flex-direction: column;
+}
+
+.floating-card {
+    background: var(--backing-background);
+    color: var(--backing-color);
+
+    padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
 }

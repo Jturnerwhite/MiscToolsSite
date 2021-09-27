@@ -7,8 +7,8 @@ export default class LandingPage extends React.Component {
     render() {
         return (
             <>
-                <div className="standard-content">
-                    <h1>Womp</h1>
+                <div className="standard-content flex f-justify-center">
+                    <h1>Misc Tools</h1>
                 </div>
             </>
         );
