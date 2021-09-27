@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: var(--header-height);
+
+    background: var(--backing-background);
+    color: var(--backing-color);
+    border-bottom: var(--backing-border);
+
+    .home-button {
+        display: inline-block;
+        padding: 0px 15px;
+
+        font-size: 1.25em;
+        line-height: 1.25em;
+    }
+
+    .header-text {
+        display: inline-block;
+        font-size: 1.25em;
+        line-height: 1.25em;
+    }
+}

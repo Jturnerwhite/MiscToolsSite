@@ -6,9 +6,11 @@ export default class LandingPage extends React.Component {
 
     render() {
         return (
-            <div className="">
-                <h1>Womp</h1>
-            </div>
+            <>
+                <div className="standard-content">
+                    <h1>Womp</h1>
+                </div>
+            </>
         );
     }
 }

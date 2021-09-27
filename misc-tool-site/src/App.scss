@@ -1,0 +1,33 @@
+@import './Variables.scss';
+
+#root {
+	background-color: lightgray;
+	height: 100vh;
+	width: 100vw;
+}
+
+.site-body {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: stretch;
+
+	height: calc(100% - var(--header-height));
+
+	overflow: auto;
+}
+
+.side-nav {
+	display: block;
+	height: 100%;
+	width: var(--side-nav-width);
+}
+
+.site-content {
+	display: block;
+	height: 100%;
+	width: calc(100% - var(--side-nav-width));
+}
+
+.standard-content {
+	padding: 10px 20px;
+}

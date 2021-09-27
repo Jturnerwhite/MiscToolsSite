@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import "./header.scss";
+
 function Header() {
     return (
-        <div>
-            <a href="/">Home</a>
-            <h1>Misc Tool Site</h1>
+        <div className="header">
+            <a className="home-button" href="/"><FontAwesomeIcon icon="dice"/></a>
+            <label className="header-text">Misc Tool Site</label>
         </div>
     );
 }
