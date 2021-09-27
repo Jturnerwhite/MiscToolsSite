@@ -1,8 +1,9 @@
 @import './Variables.scss';
 @import './Buttons.scss';
+@import './Utilities.scss';
 
 #root {
-	background-color: lightgray;
+	background-color: var(--site-background);
 	height: 100vh;
 	width: 100vw;
 }
@@ -42,27 +43,11 @@ h3 {
 	padding: 10px 20px;
 }
 
-.flex {
-	display: flex;
-}
-
-.f-justify-center {
-	justify-content: center;
-}
-
-.f-align-center {
-	align-items: center;
-}
-
-.f-col {
-	flex-direction: column;
-}
-
 .floating-card {
     background: var(--backing-background);
     color: var(--backing-color);
 
     padding: 10px 20px;
 	border-radius: 5px;
-	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: var(--basic-box-shadow);
 }

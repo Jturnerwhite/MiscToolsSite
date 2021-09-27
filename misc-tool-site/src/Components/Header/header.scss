@@ -5,9 +5,9 @@
     width: 100%;
     height: var(--header-height);
 
-    background: var(--backing-background);
+    background: var(--primary-color);
     color: var(--backing-color);
-    border-bottom: var(--backing-border);
+    fill: var(--backing-color);
 
     .home-button {
         display: inline-block;

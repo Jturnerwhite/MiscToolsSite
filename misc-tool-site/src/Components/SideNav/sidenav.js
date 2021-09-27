@@ -5,11 +5,12 @@ function SideNav() {
     return (
         <>
             <ul className="site-nav">
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-                <li>d</li>
-                <li>e</li>
+                <li><a href="/">Event Generator</a></li>
+                <li><a href="/">Other Tool</a></li>
+                <li><a href="/">Other Tool</a></li>
+                <li><a href="/">Other Tool</a></li>
+                <li><a href="/">Other Tool</a></li>
+                <li><a href="/">Other Tool</a></li>
             </ul>
         </>
     );

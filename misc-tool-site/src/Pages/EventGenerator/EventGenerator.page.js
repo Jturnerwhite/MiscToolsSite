@@ -58,7 +58,7 @@ export default class EventGenerator extends React.Component {
                         {eventDisplay}
                     </div>
                     <div className="form">
-                        <button className="btn" onClick={() => {this.generate();}}><FontAwesomeIcon icon="dice"/>Generate</button>
+                        <button className="btn btn-primary" onClick={() => {this.generate();}}><FontAwesomeIcon icon="dice"/>Generate</button>
                     </div>
                 </div>
             </>

@@ -1,0 +1,20 @@
+.flex {
+	display: flex;
+}
+
+.f-justify-center {
+	justify-content: center;
+}
+
+.f-align-center {
+	align-items: center;
+}
+
+.f-col {
+	flex-direction: column;
+}
+
+.text-red {
+	color: red;
+	fill: red;
+}

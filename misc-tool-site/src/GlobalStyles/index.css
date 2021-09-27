@@ -21,5 +21,6 @@ code {
   padding: 0px;
   font-size: 1em;
   color: inherit;
+  fill: inherit;
   box-sizing: border-box !important;
 }

@@ -1,11 +1,18 @@
 html {
-    --primary-color: red;
+    --primary-color: #3B0D11;
+    --primary-color-light: #6A3937;
+    --secondary-color: #283F3B;
+    --secondary-color-light: #bae3dc;
 
-    --backing-background: #2f3136;
+    --site-background: #fff7f7;
+
+    --backing-background: var(--secondary-color);
     --backing-color: white;
     --backing-border: 2px solid grey;
 
     --header-height: 2.75rem;
 
     --side-nav-width: 200px;
+
+    --basic-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
 }
