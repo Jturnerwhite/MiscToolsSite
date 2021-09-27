@@ -5,12 +5,26 @@
 
     background: var(--primary-color-light);
     color: var(--backing-color);
+    border-right: 2px solid var(--primary-color);
 
     li {
         padding: 10px 20px;
         list-style-type: none;
         cursor: pointer;
         user-select: none;
+
+        &.section-name {
+            text-align: center;
+            border-top: 1px solid var(--primary-color);
+            border-bottom: 1px solid var(--primary-color);
+
+            &:first-child {
+                border-top: 0px;
+            }
+            &:hover {
+                background-color: inherit;
+            }
+        }
 
         a {
             display: block;
